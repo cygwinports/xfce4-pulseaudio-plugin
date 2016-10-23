@@ -10,5 +10,7 @@ provides a convenient way to adjust the audio volume of the PulseAudio sound
 system. It can optionally handle multimedia keys for controlling the audio
 volume."
 
-OBSOLETES="xfce4-mixer"
+# Does not work because plugin version is less (0.y vs. 4.10)
+#OBSOLETES="xfce4-mixer"
+
 REQUIRES="pavucontrol pulseaudio-module-x11"
